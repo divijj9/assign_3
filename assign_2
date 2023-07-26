@@ -1,0 +1,32 @@
+function add(){
+    var sum=0;
+    for(let i=0;i<arguments.length;i++){
+        
+        if(arguments[i] instanceof Array){
+            for(let j=0;j<arguments[i].length;j++){
+                sum=sum+add(arguments[i][j]);
+                 
+            }
+            continue;
+            
+            
+        }
+            let k=parseInt(arguments[i]);
+        if(isNaN(k)){
+            continue;
+        }
+        if(isFinite(k)==false){
+            continue;
+        }
+        else{
+            sum=sum+k;
+        }
+    }
+    return sum;
+}
+        
+undefined
+add([2,3,4],2,3,"ten");
+14
+add([2,3,[3,4],5],3,2,"ten");
+22
