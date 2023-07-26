@@ -1,4 +1,7 @@
+//DIFFERNT TYPES OF FUNCTION
+
 function rec(l,b){
+
     var a=function(l,b){
         return l*b;
     }
