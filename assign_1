@@ -1,0 +1,21 @@
+function prime(n){
+    for(let i=2;i<n;i++){
+        if(n%i==0){
+            console.log("not  prime no.");
+            break;
+        }
+        else if(i==n-1){
+            console.log("prime no");
+        }
+    }
+}
+        
+undefined
+prime(7);
+VM337:8 prime no
+undefined
+prime(22);
+VM337:4 not  prime no.
+undefined
+prime(17);
+VM337:8 prime no
