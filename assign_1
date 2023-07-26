@@ -19,3 +19,50 @@ VM337:4 not  prime no.
 undefined
 prime(17);
 VM337:8 prime no
+
+
+
+///ARMSTRONG NO.
+function arm(n){
+    var a=n;
+    var b=n;
+    var dig=1;
+    while(a>9){
+        a=a/10;
+        dig=dig+1;
+    }
+    var sum=0;
+    while(n>0){
+        let x=n%10;
+        n=parseInt(n/10);
+        let d=1;
+        for(let p=0;p<dig;p++){
+            d=d*x;
+        }
+        sum=sum+d;
+        console.log(sum);
+    }
+    if(sum==b){
+        console.log("armstrong no>");
+    }
+    else{
+        console.log("not armstrong ");
+    }
+}
+undefined
+arm(153);
+VM1341:18 27
+VM1341:18 152
+VM1341:18 153
+VM1341:21 armstrong no>
+undefined
+arm(407);
+2VM1341:18 343
+VM1341:18 407
+VM1341:21 armstrong no>
+undefined
+arm(12);
+VM1341:18 4
+VM1341:18 5
+VM1341:24 not armstrong 
+undefined
