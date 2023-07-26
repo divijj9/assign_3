@@ -44,3 +44,15 @@ function print(){
 undefined
 print();
 VM469:6 the current date is 26-6-2023
+
+
+
+var obj={0:'sun',1:'mon',2:'tues',3:'wed',4:'thurs',5:'frid',6:'sat'};
+undefined
+var a=k.getDay();
+undefined
+var b=k.getDate();
+console.log(`the current day is ${obj[a]} 
+current date is ${b} current time is ${k.getHours()}:${k.getMinutes()}:${k.getSeconds()}`);
+VM1185:1 the current day is wed 
+current date is 26 current time is 23:13:17
