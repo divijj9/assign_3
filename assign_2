@@ -30,3 +30,17 @@ add([2,3,4],2,3,"ten");
 14
 add([2,3,[3,4],5],3,2,"ten");
 22
+
+//Date
+var k=new Date();
+undefined
+function print(){
+    let a=k.getDate();
+    let b=k.getFullYear();
+    let c=k.getMonth();
+    let d=`the current date is ${a}-${c}-${b}`;
+    console.log(d);
+}
+undefined
+print();
+VM469:6 the current date is 26-6-2023
