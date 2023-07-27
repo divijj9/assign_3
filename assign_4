@@ -22,3 +22,16 @@ k.reduce((c,ele)=>{
     c=c+1;
     return c;},0);
 7
+
+// SORT
+var obj_a={name:"abc",sal:1200};
+undefined
+var obj_b={name:"pqr",sal:1000};
+undefined
+var obj_c={name:"xyz",sal:1400};
+undefined
+var a1=[obj_a,obj_b,obj_c];
+var p=a1.sort((a,b)=>a.sal-b.sal);
+undefined
+p;
+
