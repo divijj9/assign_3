@@ -15,3 +15,10 @@ k.reduce((max,ele)=>{
          }
     return max;},0);
 32
+
+
+//COUNT 
+k.reduce((c,ele)=>{
+    c=c+1;
+    return c;},0);
+7
