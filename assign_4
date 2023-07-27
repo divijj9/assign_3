@@ -7,3 +7,11 @@ k.reduce((a,c)=>{
     return a;
 },0);
 65
+
+//// MAX
+k.reduce((max,ele)=>{
+         if(ele>max){
+             max=ele;
+         }
+    return max;},0);
+32
