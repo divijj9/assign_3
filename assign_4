@@ -35,3 +35,11 @@ var p=a1.sort((a,b)=>a.sal-b.sal);
 undefined
 p;
 
+
+/// SORT BY NAME
+
+var k=a1.sort((a,b)=>a.name.localeCompare(b.name));
+undefined
+k;
+(3) [{…}, {…}, {…}]0: {name: 'abc', sal: 1200}1: {name: 'pqr', sal: 1000}2: {name: 'xyz', sal: 1400}length: 3[[Prototype]]: Array(0)
+
