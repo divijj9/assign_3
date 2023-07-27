@@ -43,3 +43,12 @@ undefined
 k;
 (3) [{…}, {…}, {…}]0: {name: 'abc', sal: 1200}1: {name: 'pqr', sal: 1000}2: {name: 'xyz', sal: 1400}length: 3[[Prototype]]: Array(0)
 
+
+
+///// ADD TAX 10% ON SALARY
+var a1=[obj_a,obj_b,obj_c];
+undefined
+var a=a1.filter((a)=>a.sal=a.sal+(0.1*a.sal));
+undefined
+a;
+
